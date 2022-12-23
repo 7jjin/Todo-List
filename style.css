@@ -1,3 +1,70 @@
 .hidden{
     display:none;
 }
+
+h1{
+    display: inline;
+    position:
+}
+#outer{
+    width:1200px;
+    height:100%px;
+    margin:0 auto;
+}
+#inner{
+    position: absolute;
+    width:1200px;
+    height: 700px;
+    margin:0 auato;
+    /* background-color: antiquewhite; */
+}
+#hight_bar{
+    background-color: antiquewhite;
+    width:900px;
+    height: 150px;
+    border:1px solid black;
+}
+#hight_bar #greeting{
+   
+    line-height: 150px;
+    position: relative;
+    left:20px;
+    font-size: 70px;
+}
+#right_bar{
+    position:absolute;
+    padding-left: 56px;
+    border-left: 3px solid black;
+    width: 220px;
+    height: 100%;
+    right: 20px;
+    top:0px;
+}
+#clock{
+    bottom:72px;
+    left:100px;
+    position: absolute;
+    margin:0;
+}
+#todo-form{
+    position: absolute;
+    bottom:20px;
+}
+input{
+    height: 40px;
+    width: 180px;
+}
+img{
+    width: 188px;
+    height: 550px;
+}
+#quote{
+    position:absolute;
+    bottom:20px;
+    left:124px;
+}
+#weather{
+    position:relative;
+    display:inline;
+    left:352px;
+}
