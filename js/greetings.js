@@ -1,5 +1,5 @@
 const loginForm = document.querySelector("#login-form")
-const loginInut = document.querySelector("#login-form input");
+const loginInut = document.querySelector("#login-form .id");
 const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
